@@ -32,7 +32,7 @@ body {
     transform:translate(-50%,-50%);/*um so pq vai pegar o eixo x e y*/
 }
 .bg{
-    display:block;/*trocar pra none depois*/
+    display:none;/*trocar pra none depois*/
     position: absolute;
     left: 0;
     top: 0;
@@ -77,4 +77,11 @@ form input[type=text]{
     background:#69a4d3;
     border-radius: 10px;
     border:0;
+}
+
+.closeBtn{
+    cursor: pointer;
+    position: absolute;
+    right: 7px;
+    top: 8px;
 }
