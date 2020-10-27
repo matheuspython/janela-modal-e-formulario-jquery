@@ -31,3 +31,50 @@ body {
     top: 50%;
     transform:translate(-50%,-50%);/*um so pq vai pegar o eixo x e y*/
 }
+.bg{
+    display:block;/*trocar pra none depois*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.6);
+}
+.form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color:white;
+    max-width: 400px;
+    padding:80px 2%;
+    height: 60%;
+    min-height: 380px;
+    max-height: 700px;
+    width: 94%;
+    border: 4px solid rgb(210,210,210);
+}
+form input[type=text]{
+    width:100%;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+    margin-bottom:20px;
+}
+.form input[type=submit]{
+    width:100%;
+    height: 48px;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: helvetica;
+    line-height: 48px;
+    text-align: center;
+    background:#69a4d3;
+    border-radius: 10px;
+    border:0;
+}
