@@ -12,3 +12,22 @@ body {
 .clear {
     clear: both;
 }
+.btn{
+    width: 80%;
+    max-width: 300px;
+    height: 100px;
+    color: white;
+    font-size: 24px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: helvetica;
+    background-color: #69a4d3;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);/*um so pq vai pegar o eixo x e y*/
+}
